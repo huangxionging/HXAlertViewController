@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F248022E1A72368400B52394 /* AlertViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F248022D1A72368400B52394 /* AlertViewController.bundle */; };
+		F2B274411ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B274401ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.m */; };
+		F2E8EF911A6614CD0019BC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EF901A6614CD0019BC56 /* main.m */; };
+		F2E8EF941A6614CD0019BC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EF931A6614CD0019BC56 /* AppDelegate.m */; };
+		F2E8EF9F1A6614CD0019BC56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E8EF9E1A6614CD0019BC56 /* Images.xcassets */; };
+		F2E8EFAE1A6614CD0019BC56 /* HXAlertViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFAD1A6614CD0019BC56 /* HXAlertViewControllerTests.m */; };
+		F2E8EFBD1A661DD10019BC56 /* HXAlertViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFB71A661DD10019BC56 /* HXAlertViewController.xcdatamodeld */; };
+		F2E8EFBE1A661DD10019BC56 /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFBA1A661DD10019BC56 /* HXNavigationController.m */; };
+		F2E8EFBF1A661DD10019BC56 /* HXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFBC1A661DD10019BC56 /* HXRootViewController.m */; };
+		F2E8EFC21A661E060019BC56 /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFC11A661E060019BC56 /* HXViewController.m */; };
+		F2E8F0021A666F5F0019BC56 /* HXAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8F0011A666F5F0019BC56 /* HXAlertViewController.m */; };
+		F2EA5FAC1A67A14D00F4C142 /* leftSlide1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2EA5FA91A67A14D00F4C142 /* leftSlide1@2x.png */; };
+		F2EA5FAD1A67A14D00F4C142 /* leftSlide2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2EA5FAA1A67A14D00F4C142 /* leftSlide2@2x.png */; };
+		F2EA5FAE1A67A14D00F4C142 /* navigation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2EA5FAB1A67A14D00F4C142 /* navigation@2x.png */; };
+		F2EBAA751A6902B800F7B0A4 /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EBAA741A6902B800F7B0A4 /* addViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E8EFA81A6614CD0019BC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E8EF831A6614CD0019BC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E8EF8A1A6614CD0019BC56;
+			remoteInfo = HXAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F248022D1A72368400B52394 /* AlertViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlertViewController.bundle; sourceTree = "<group>"; };
+		F2B2743F1ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HXUitlityTool.h"; sourceTree = "<group>"; };
+		F2B274401ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXUitlityTool.m"; sourceTree = "<group>"; };
+		F2BDC6151ABEA190009F111A /* HXObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXObject.h; sourceTree = "<group>"; };
+		F2E8EF8B1A6614CD0019BC56 /* HXAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E8EF8F1A6614CD0019BC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E8EF901A6614CD0019BC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E8EF921A6614CD0019BC56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E8EF931A6614CD0019BC56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E8EF9E1A6614CD0019BC56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2E8EFA71A6614CD0019BC56 /* HXAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E8EFAC1A6614CD0019BC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E8EFAD1A6614CD0019BC56 /* HXAlertViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAlertViewControllerTests.m; sourceTree = "<group>"; };
+		F2E8EFB81A661DD10019BC56 /* HXAlertViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HXAlertViewController.xcdatamodel; sourceTree = "<group>"; };
+		F2E8EFB91A661DD10019BC56 /* HXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXNavigationController.h; sourceTree = "<group>"; };
+		F2E8EFBA1A661DD10019BC56 /* HXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXNavigationController.m; sourceTree = "<group>"; };
+		F2E8EFBB1A661DD10019BC56 /* HXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXRootViewController.h; sourceTree = "<group>"; };
+		F2E8EFBC1A661DD10019BC56 /* HXRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXRootViewController.m; sourceTree = "<group>"; };
+		F2E8EFC01A661E060019BC56 /* HXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXViewController.h; sourceTree = "<group>"; };
+		F2E8EFC11A661E060019BC56 /* HXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXViewController.m; sourceTree = "<group>"; };
+		F2E8EFC51A663BCC0019BC56 /* HXAlertViewController.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAlertViewController.pch; sourceTree = "<group>"; };
+		F2E8F0001A666F5F0019BC56 /* HXAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlertViewController.h; sourceTree = "<group>"; };
+		F2E8F0011A666F5F0019BC56 /* HXAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlertViewController.m; sourceTree = "<group>"; };
+		F2EA5FA91A67A14D00F4C142 /* leftSlide1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftSlide1@2x.png"; sourceTree = "<group>"; };
+		F2EA5FAA1A67A14D00F4C142 /* leftSlide2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftSlide2@2x.png"; sourceTree = "<group>"; };
+		F2EA5FAB1A67A14D00F4C142 /* navigation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation@2x.png"; sourceTree = "<group>"; };
+		F2EBAA731A6902B800F7B0A4 /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		F2EBAA741A6902B800F7B0A4 /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E8EF881A6614CD0019BC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E8EFA41A6614CD0019BC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E8EF821A6614CD0019BC56 = {
+			isa = PBXGroup;
+			children = (
+				F2E8EF8D1A6614CD0019BC56 /* HXAlertViewController */,
+				F2E8EFAA1A6614CD0019BC56 /* HXAlertViewControllerTests */,
+				F2E8EF8C1A6614CD0019BC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E8EF8C1A6614CD0019BC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EF8B1A6614CD0019BC56 /* HXAlertViewController.app */,
+				F2E8EFA71A6614CD0019BC56 /* HXAlertViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E8EF8D1A6614CD0019BC56 /* HXAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EFC31A661E0B0019BC56 /* AppDelegate */,
+				F2E8EFC41A661E1A0019BC56 /* ViewController */,
+				F2E8EFB71A661DD10019BC56 /* HXAlertViewController.xcdatamodeld */,
+				F2E8EF9E1A6614CD0019BC56 /* Images.xcassets */,
+				F2E8EF8E1A6614CD0019BC56 /* Supporting Files */,
+				F2BDC6151ABEA190009F111A /* HXObject.h */,
+				F2B2743F1ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.h */,
+				F2B274401ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.m */,
+			);
+			path = HXAlertViewController;
+			sourceTree = "<group>";
+		};
+		F2E8EF8E1A6614CD0019BC56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EF8F1A6614CD0019BC56 /* Info.plist */,
+				F2E8EF901A6614CD0019BC56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E8EFAA1A6614CD0019BC56 /* HXAlertViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EFAD1A6614CD0019BC56 /* HXAlertViewControllerTests.m */,
+				F2E8EFAB1A6614CD0019BC56 /* Supporting Files */,
+			);
+			path = HXAlertViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F2E8EFAB1A6614CD0019BC56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EFAC1A6614CD0019BC56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E8EFC31A661E0B0019BC56 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EF921A6614CD0019BC56 /* AppDelegate.h */,
+				F2E8EF931A6614CD0019BC56 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F2E8EFC41A661E1A0019BC56 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8EFC01A661E060019BC56 /* HXViewController.h */,
+				F2E8EFC11A661E060019BC56 /* HXViewController.m */,
+				F2E8EFB91A661DD10019BC56 /* HXNavigationController.h */,
+				F2E8EFBA1A661DD10019BC56 /* HXNavigationController.m */,
+				F2E8EFBB1A661DD10019BC56 /* HXRootViewController.h */,
+				F2E8EFBC1A661DD10019BC56 /* HXRootViewController.m */,
+				F2EBAA731A6902B800F7B0A4 /* addViewController.h */,
+				F2EBAA741A6902B800F7B0A4 /* addViewController.m */,
+				F2E8EFC51A663BCC0019BC56 /* HXAlertViewController.pch */,
+				F2E8EFFF1A666F5F0019BC56 /* HXAlertViewController */,
+				F2EA5FA91A67A14D00F4C142 /* leftSlide1@2x.png */,
+				F2EA5FAA1A67A14D00F4C142 /* leftSlide2@2x.png */,
+				F2EA5FAB1A67A14D00F4C142 /* navigation@2x.png */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F2E8EFFF1A666F5F0019BC56 /* HXAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2E8F0001A666F5F0019BC56 /* HXAlertViewController.h */,
+				F2E8F0011A666F5F0019BC56 /* HXAlertViewController.m */,
+				F248022D1A72368400B52394 /* AlertViewController.bundle */,
+			);
+			path = HXAlertViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E8EF8A1A6614CD0019BC56 /* HXAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E8EFB11A6614CD0019BC56 /* Build configuration list for PBXNativeTarget "HXAlertViewController" */;
+			buildPhases = (
+				F2E8EF871A6614CD0019BC56 /* Sources */,
+				F2E8EF881A6614CD0019BC56 /* Frameworks */,
+				F2E8EF891A6614CD0019BC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXAlertViewController;
+			productName = HXAlertViewController;
+			productReference = F2E8EF8B1A6614CD0019BC56 /* HXAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E8EFA61A6614CD0019BC56 /* HXAlertViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E8EFB41A6614CD0019BC56 /* Build configuration list for PBXNativeTarget "HXAlertViewControllerTests" */;
+			buildPhases = (
+				F2E8EFA31A6614CD0019BC56 /* Sources */,
+				F2E8EFA41A6614CD0019BC56 /* Frameworks */,
+				F2E8EFA51A6614CD0019BC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E8EFA91A6614CD0019BC56 /* PBXTargetDependency */,
+			);
+			name = HXAlertViewControllerTests;
+			productName = HXAlertViewControllerTests;
+			productReference = F2E8EFA71A6614CD0019BC56 /* HXAlertViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E8EF831A6614CD0019BC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = New_Life;
+				TargetAttributes = {
+					F2E8EF8A1A6614CD0019BC56 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F2E8EFA61A6614CD0019BC56 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F2E8EF8A1A6614CD0019BC56;
+					};
+				};
+			};
+			buildConfigurationList = F2E8EF861A6614CD0019BC56 /* Build configuration list for PBXProject "HXAlertViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E8EF821A6614CD0019BC56;
+			productRefGroup = F2E8EF8C1A6614CD0019BC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E8EF8A1A6614CD0019BC56 /* HXAlertViewController */,
+				F2E8EFA61A6614CD0019BC56 /* HXAlertViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E8EF891A6614CD0019BC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EA5FAD1A67A14D00F4C142 /* leftSlide2@2x.png in Resources */,
+				F2E8EF9F1A6614CD0019BC56 /* Images.xcassets in Resources */,
+				F2EA5FAE1A67A14D00F4C142 /* navigation@2x.png in Resources */,
+				F248022E1A72368400B52394 /* AlertViewController.bundle in Resources */,
+				F2EA5FAC1A67A14D00F4C142 /* leftSlide1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E8EFA51A6614CD0019BC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E8EF871A6614CD0019BC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B274411ADFFBEE00FF4B92 /* UIViewController+HXUitlityTool.m in Sources */,
+				F2E8EFBF1A661DD10019BC56 /* HXRootViewController.m in Sources */,
+				F2E8EF941A6614CD0019BC56 /* AppDelegate.m in Sources */,
+				F2E8EFC21A661E060019BC56 /* HXViewController.m in Sources */,
+				F2E8EFBD1A661DD10019BC56 /* HXAlertViewController.xcdatamodeld in Sources */,
+				F2E8EF911A6614CD0019BC56 /* main.m in Sources */,
+				F2E8EFBE1A661DD10019BC56 /* HXNavigationController.m in Sources */,
+				F2EBAA751A6902B800F7B0A4 /* addViewController.m in Sources */,
+				F2E8F0021A666F5F0019BC56 /* HXAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E8EFA31A6614CD0019BC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E8EFAE1A6614CD0019BC56 /* HXAlertViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E8EFA91A6614CD0019BC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E8EF8A1A6614CD0019BC56 /* HXAlertViewController */;
+			targetProxy = F2E8EFA81A6614CD0019BC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2E8EFAF1A6614CD0019BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2E8EFB01A6614CD0019BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E8EFB21A6614CD0019BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXAlertViewController/HXAlertViewController.pch";
+				INFOPLIST_FILE = HXAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2E8EFB31A6614CD0019BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXAlertViewController/HXAlertViewController.pch";
+				INFOPLIST_FILE = HXAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2E8EFB51A6614CD0019BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HXAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXAlertViewController.app/HXAlertViewController";
+			};
+			name = Debug;
+		};
+		F2E8EFB61A6614CD0019BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HXAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXAlertViewController.app/HXAlertViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E8EF861A6614CD0019BC56 /* Build configuration list for PBXProject "HXAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E8EFAF1A6614CD0019BC56 /* Debug */,
+				F2E8EFB01A6614CD0019BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E8EFB11A6614CD0019BC56 /* Build configuration list for PBXNativeTarget "HXAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E8EFB21A6614CD0019BC56 /* Debug */,
+				F2E8EFB31A6614CD0019BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E8EFB41A6614CD0019BC56 /* Build configuration list for PBXNativeTarget "HXAlertViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E8EFB51A6614CD0019BC56 /* Debug */,
+				F2E8EFB61A6614CD0019BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2E8EFB71A661DD10019BC56 /* HXAlertViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2E8EFB81A661DD10019BC56 /* HXAlertViewController.xcdatamodel */,
+			);
+			currentVersion = F2E8EFB81A661DD10019BC56 /* HXAlertViewController.xcdatamodel */;
+			path = HXAlertViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2E8EF831A6614CD0019BC56 /* Project object */;
+}
