@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03704FA45500F0128278FFB1D34FA4B7807667FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03704FA45500F0128278FFB1D34FA4B7807667FA" : 0,
+    "F7A10E6BBE0517304F1C27EA63B25744BB14A5E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "529A1BA4-F31C-4779-86CD-09D2981E9E32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03704FA45500F0128278FFB1D34FA4B7807667FA" : "HXAlertViewController",
+    "F7A10E6BBE0517304F1C27EA63B25744BB14A5E8" : "HXAlertViewControllerHXAlertViewController"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HXAlertViewController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HXAlertViewController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huangxionging\/HXAlertViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03704FA45500F0128278FFB1D34FA4B7807667FA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huangxionging\/HXAlertViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7A10E6BBE0517304F1C27EA63B25744BB14A5E8"
+    }
+  ]
+}
