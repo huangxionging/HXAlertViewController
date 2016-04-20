@@ -13,7 +13,6 @@
 		F2E8EF941A6614CD0019BC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EF931A6614CD0019BC56 /* AppDelegate.m */; };
 		F2E8EF9F1A6614CD0019BC56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E8EF9E1A6614CD0019BC56 /* Images.xcassets */; };
 		F2E8EFAE1A6614CD0019BC56 /* HXAlertViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFAD1A6614CD0019BC56 /* HXAlertViewControllerTests.m */; };
-		F2E8EFBD1A661DD10019BC56 /* HXAlertViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFB71A661DD10019BC56 /* HXAlertViewController.xcdatamodeld */; };
 		F2E8EFBE1A661DD10019BC56 /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFBA1A661DD10019BC56 /* HXNavigationController.m */; };
 		F2E8EFBF1A661DD10019BC56 /* HXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFBC1A661DD10019BC56 /* HXRootViewController.m */; };
 		F2E8EFC21A661E060019BC56 /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8EFC11A661E060019BC56 /* HXViewController.m */; };
@@ -48,7 +47,6 @@
 		F2E8EFA71A6614CD0019BC56 /* HXAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E8EFAC1A6614CD0019BC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E8EFAD1A6614CD0019BC56 /* HXAlertViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAlertViewControllerTests.m; sourceTree = "<group>"; };
-		F2E8EFB81A661DD10019BC56 /* HXAlertViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HXAlertViewController.xcdatamodel; sourceTree = "<group>"; };
 		F2E8EFB91A661DD10019BC56 /* HXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXNavigationController.h; sourceTree = "<group>"; };
 		F2E8EFBA1A661DD10019BC56 /* HXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXNavigationController.m; sourceTree = "<group>"; };
 		F2E8EFBB1A661DD10019BC56 /* HXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXRootViewController.h; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			children = (
 				F2E8EFC31A661E0B0019BC56 /* AppDelegate */,
 				F2E8EFC41A661E1A0019BC56 /* ViewController */,
-				F2E8EFB71A661DD10019BC56 /* HXAlertViewController.xcdatamodeld */,
 				F2E8EF9E1A6614CD0019BC56 /* Images.xcassets */,
 				F2E8EF8E1A6614CD0019BC56 /* Supporting Files */,
 				F2BDC6151ABEA190009F111A /* HXObject.h */,
@@ -287,7 +284,6 @@
 				F2E8EFBF1A661DD10019BC56 /* HXRootViewController.m in Sources */,
 				F2E8EF941A6614CD0019BC56 /* AppDelegate.m in Sources */,
 				F2E8EFC21A661E060019BC56 /* HXViewController.m in Sources */,
-				F2E8EFBD1A661DD10019BC56 /* HXAlertViewController.xcdatamodeld in Sources */,
 				F2E8EF911A6614CD0019BC56 /* main.m in Sources */,
 				F2E8EFBE1A661DD10019BC56 /* HXNavigationController.m in Sources */,
 				F2EBAA751A6902B800F7B0A4 /* addViewController.m in Sources */,
@@ -484,19 +480,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F2E8EFB71A661DD10019BC56 /* HXAlertViewController.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F2E8EFB81A661DD10019BC56 /* HXAlertViewController.xcdatamodel */,
-			);
-			currentVersion = F2E8EFB81A661DD10019BC56 /* HXAlertViewController.xcdatamodel */;
-			path = HXAlertViewController.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F2E8EF831A6614CD0019BC56 /* Project object */;
 }

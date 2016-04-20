@@ -61,10 +61,10 @@
         }];
     }]];
     
+    [self getCurrentVC];
     
-    [self presentViewController: alertViewController animated: YES completion:^{
-       
-    }];
+    
+    [alertViewController show];
 
 }
 
@@ -140,4 +140,48 @@
         
     }];
 }
+
+- (UIViewController *)getCurrentVC {
+    UIViewController *result = nil;
+    
+    // 获取住窗口
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    
+    // 如果主窗口不是普通的窗口则执行if语句
+    if (window.windowLevel != UIWindowLevelNormal) {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        
+        // 遍历窗口找到窗口
+        for(UIWindow * tmpWin in windows) {
+            if (tmpWin.windowLevel == UIWindowLevelNormal) {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    
+    // 获得窗口的第一个子视图
+    UIView *frontView = [[window subviews] objectAtIndex:0];
+    
+    // 先判断 UITransitionView
+    if ([frontView isKindOfClass: NSClassFromString(@"UITransitionView")]) {
+        NSLog(@"%@", frontView);
+        if (frontView.subviews.count != 0) {
+            frontView = frontView.subviews[0];
+        }
+    }
+    // 得到其响应者
+    id nextResponder = [frontView nextResponder];
+    
+    // 获取最上层的控制器
+    if ([nextResponder isKindOfClass:[UIViewController class]]) {
+        result = nextResponder;
+    }
+    else {
+        result = window.rootViewController;
+    }
+    
+    return result;
+}
+
 @end

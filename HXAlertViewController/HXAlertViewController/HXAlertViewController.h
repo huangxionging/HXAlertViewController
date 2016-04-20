@@ -121,6 +121,13 @@ typedef void(^HXAlertActionBlock)(HXAlertAction *action);
  */
 - (void)addTextFieldWithConfigurationHandler:(void (^)(UITextField *textField))configurationHandler;
 
-
+/**
+ *  @author huangxiong, 2016/04/20 15:49:30
+ *
+ *  @brief 展示, 不再使用别的控制器展示
+ *
+ *  @since 1.0
+ */
+- (void) show;
 @end
 

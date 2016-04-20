@@ -651,6 +651,15 @@ typedef NS_ENUM(NSInteger, HXAlertActionTag) {
     
     // 获得窗口的第一个子视图
     UIView *frontView = [[window subviews] objectAtIndex:0];
+    
+    // 先判断 UITransitionView
+    if ([frontView isKindOfClass: NSClassFromString(@"UITransitionView")]) {
+        NSLog(@"%@", frontView);
+        if (frontView.subviews.count != 0) {
+            frontView = frontView.subviews[0];
+        }
+    }
+
     // 得到其响应者
     id nextResponder = [frontView nextResponder];
     
@@ -746,6 +755,14 @@ typedef NS_ENUM(NSInteger, HXAlertActionTag) {
         }];
     }
     return YES;
+}
+
+#pragma mark- 展示控制器
+- (void)show {
+    
+    [[self getCurrentVC] presentViewController: self animated: YES completion:^{
+        
+    }];
 }
 
 - (void)dealloc
