@@ -97,6 +97,14 @@ typedef void(^HXAlertActionBlock)(HXAlertAction *action);
  */
 @property (nonatomic, readonly) HXAlertControllerStyle preferredStyle;
 
+/**
+ *  @author huangxiong, 2016/04/20 17:08:19
+ *
+ *  @brief 获取当前控制器
+ *
+ *  @since 1.0
+ */
+@property (nonatomic, readonly, weak) UIViewController *currentViewController;
 
 /**
  *  @brief: 创建一个 HXAlertViewController 类型的对象实例

@@ -234,6 +234,8 @@ typedef NS_ENUM(NSInteger, HXAlertActionTag) {
 
 @implementation HXAlertViewController
 
+@synthesize currentViewController = _currentViewController;
+
 #pragma mark---创建 HXAlertViewController 对象实例
 + (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(HXAlertControllerStyle)preferredStyle {
     // 必须是这两种风格
@@ -653,7 +655,8 @@ typedef NS_ENUM(NSInteger, HXAlertActionTag) {
     UIView *frontView = [[window subviews] objectAtIndex:0];
     
     // 先判断 UITransitionView
-    if ([frontView isKindOfClass: NSClassFromString(@"UITransitionView")]) {
+    NSString *classString = NSStringFromClass([frontView class]);
+    if ([classString isEqualToString: @"UITransitionView"]) {
         NSLog(@"%@", frontView);
         if (frontView.subviews.count != 0) {
             frontView = frontView.subviews[0];
@@ -763,6 +766,15 @@ typedef NS_ENUM(NSInteger, HXAlertActionTag) {
     [[self getCurrentVC] presentViewController: self animated: YES completion:^{
         
     }];
+}
+
+#pragma mark- 当前控制器
+- (UIViewController *)currentViewController {
+    
+    if (_currentViewController == nil) {
+        _currentViewController = [self getCurrentVC];
+    }
+    return _currentViewController;
 }
 
 - (void)dealloc
