@@ -101,36 +101,36 @@
     
     
     
-    [alertViewController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
-        
-    }];
-    
-    [alertViewController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
-      
-    }];
+//    [alertViewController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+//        
+//    }];
+//    
+//    [alertViewController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+//      
+//    }];
     
 //    [alertViewController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
 //        textField.layer.masksToBounds = YES;
 //        textField.layer.borderWidth = 0.5;
 //    }];
     
-    [alertViewController addAction: [HXAlertAction actionWithTitle: @"登陆" style: HXAlertActionStyleDestructive andActionBlock:^(HXAlertAction *action) {
-        
-        UITextField *userAccountTextField = alertViewController.textFields[0];
-        UITextField *passwordTextField = alertViewController.textFields[1];
-        
-        NSString *user = userAccountTextField.text;
-        NSString *password = passwordTextField.text;
-        
-        NSLog(@"%@ ---- %@", user, password);
-        
-        
-        [alertViewController dismissViewControllerAnimated: YES completion:^{
-            
-        }];
-    }]];
+//    [alertViewController addAction: [HXAlertAction actionWithTitle: @"登陆" style: HXAlertActionStyleDestructive andActionBlock:^(HXAlertAction *action) {
+//        
+//        UITextField *userAccountTextField = alertViewController.textFields[0];
+//        UITextField *passwordTextField = alertViewController.textFields[1];
+//        
+//        NSString *user = userAccountTextField.text;
+//        NSString *password = passwordTextField.text;
+//        
+//        NSLog(@"%@ ---- %@", user, password);
+//        
+//        
+//        [alertViewController dismissViewControllerAnimated: YES completion:^{
+//            
+//        }];
+//    }]];
     
-    [alertViewController addAction: [HXAlertAction actionWithTitle: @"取消" style: HXAlertActionStyleCancel andActionBlock:^(HXAlertAction *action) {
+    [alertViewController addAction: [HXAlertAction actionWithTitle: @"取消" style: HXAlertActionStyleDefault andActionBlock:^(HXAlertAction *action) {
         [alertViewController dismissViewControllerAnimated: YES completion:^{
             
         }];
